@@ -1,0 +1,267 @@
+
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron {
+      background-color: white;
+      background-image: url('resources/logos/mainlogo.jpg');
+      background-size: initial;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+       padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+      height: 50rem;
+      opacity: .8.75;
+
+
+  }
+
+  .jumbotron h1 {
+    color: rgba(22, 43, 211,.7);
+    font-family: 'Fredoka One', cursive;
+    font-size: 12rem;
+    margin-top: -50px;
+    letter-spacing:25px;
+  }
+
+  .jumbotron p {
+    color: rgba(30, 165, 244,.7);
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 260px;
+  }
+
+.anal {
+  height: 20rem;
+  text-align: center;
+  left: 56px;
+}
+
+
+.anal h2 {
+margin-top: -5rem;
+position: relative;
+left:220px;
+padding-top: 1rem;
+}
+
+
+
+  .glyphicon.glyphicon-globe {
+    font-size: 75px;
+}
+
+
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-image: url('resources/images/anal.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .logo-small {
+      color: rgb(30, 165, 244);
+      font-size: 50px;
+  }
+  .logo {
+      color: rgb(30, 165, 244);
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: rgb(30, 165, 244);
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+
+#contact {
+  background-image: url('resources/images/spark.jpeg');
+}
+
+#portfolio {
+  background-image: url('resources/images/city.jpeg');
+  opacity: .85;
+}
+
+
+.white {
+  color: white;
+}
+
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+
+    .about_icon{display: none;}
+@media (max-width: 768px){
+  h2{font-size: 24px;}
+  .jumbotron.text-center{padding:50px 15px 20px;margin: 0px;}
+  #about h2{float: left;}
+  #about h4{margin: 0px;}
+  .mobile_display_none{display: none;}
+  .about_icon{line-height: 60px;float: right;}
+  .about_icon{display: block;}
+  .clear{clear: both;}
+  .button button{width: 100%;}
+
+  #about, .about_bottomsection, #services, #portfolio{border-bottom: 1px solid #ccc;padding-bottom: 25px;}
+  .about_bottomsection{padding-bottom: 0px;}
+  .about_bottomsection .anal h2{margin-bottom: 0px;}
+  #services{padding-bottom: 10px;}
+  #services .glyphicon{font-size: 24px;}
+  .carousel-control.right, .carousel-control.left{background: transparent;color: #000;opacity: 1;}
+  .text-center_mobile{text-align: center;}
+  .data_analytics{margin: 20px 0;}
+}
+
+.opacity {
+  opacity: .5;
+}
